@@ -9,7 +9,7 @@ public class Kirk implements RequestHandler<String, String> {
         */
         @Override
         //     return-type  method-name(object-with-request-data, aws-lambda-context-object)
-        public String  handleRequest(String a,  Context context) {
+        public String  handleRequest(String aString,  Context context) {
         // an aws-lambda-context-object supplies methods and properties that provide
         //    information about the invocation, function, and execution environment.
 
